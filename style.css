@@ -9,3 +9,83 @@ body {
   font-weight: 700;
   font-style: normal;
 }
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+header i {
+  margin:0 60px 0  30px;
+  font-size: 40px;
+  float: left;
+}
+header i:hover {
+  cursor: pointer;
+}
+h1 {
+  margin: 0 300px 0 300px;
+  letter-spacing: 15px;
+}
+h4 {
+  font-size: 20px;
+  margin-right: 60px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container img {
+  max-width: 150px;
+  margin:40px 40px 0 40px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container1 img {
+  max-width: 400px;
+  margin: 20px 0 20px 0;
+}
+.container1 p {
+  font-size: 10px;
+}
+.autre {
+  display: flex;
+  justify-content: space-between;
+}
+.container .autre1 {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+.container .autre2 {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.container button {
+  margin-bottom: 10px;
+  padding: 10px 5px 10px 5px;
+  background-color: transparent;
+  width: 150px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  font-family: "Roboto" , sans-serif;
+}
+.container button:hover {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+}
+.container h6 {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
