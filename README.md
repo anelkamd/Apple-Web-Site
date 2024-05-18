@@ -5,6 +5,6 @@
 Voila Le Site en question.... 
 
 follow me : {
-    instagram :
+    instagram : https://www.instagram.com/anelka.md
     twitter : https://x.com/Anelka_MD
 }
